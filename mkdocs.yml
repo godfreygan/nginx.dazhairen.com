@@ -1,0 +1,71 @@
+site_name: Nginx详解
+site_description: 个人学习记录与分享，纯属个人见解，不喜勿喷～
+site_author: Godfrey
+site_url: http://nginx.dazhairen.com/
+copyright: <a href="http://beian.miit.gov.cn/" target="blank">桂ICP备18007532号</a>
+
+theme:
+  name: material
+  language: 'zh'
+  palette:
+    primary: 'Green'
+    accent: 'Pink'
+  feature:
+    tabs: false
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+extra_javascript:
+  - 'assets/js/baidu-tongji.js'
+  - 'assets/js/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
+
+
+nav:
+  - 一. Nginx 简介:
+      - 1. 简介: intro.md
+      - 2. 开发环境部署:
+         - 2.0. 开发环境部署: intro/install.md
+         - 2.1. 普通安装: intro/normal-install.md
+         - 2.2. Docker安装: intro/docker-install.md
+         - 2.3. 脚本安装: intro/shell-install.md
+  - 二. Nginx 入门:
+      - 1. 常用命令: basic/command.md
+      - 2. Nginx配置文件: basic/config.md
+      - 3. Nginx配置虚拟主机: basic/config-test.md
+  - 三. Nginx实战:
+      - 1. 代理服务器: progress/proxy_server.md
+      - 2. Http反向代理: progress/reverse_proxy_http.md
+      - 3. Https反向代理: other/reverse_proxy_https.md
+      - 4. 同一域名多个webapp的配置: other/reverse_proxy_02.md
+      - 5. 负载均衡: other/load_balance.md
+      - 6. 静态站点: other/static_site.md
+      - 7. 搭建文件服务器: other/file_server.md
+  - 四. 进阶:
+      - CGI、FastCGI: extend/cgi-fastcgi.md
+  - 五. 其他:
+      - 资源: other/resource.md
