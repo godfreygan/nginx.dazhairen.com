@@ -47,7 +47,7 @@ extra_javascript:
 
 nav:
   - 一. Nginx 简介:
-      - 1. 简介: intro.md
+      - 1. 简介: intro/index.md
       - 2. 开发环境部署:
          - 2.0. 开发环境部署: intro/install.md
          - 2.1. 普通安装: intro/normal-install.md
@@ -60,11 +60,11 @@ nav:
   - 三. Nginx实战:
       - 1. 代理服务器: progress/proxy_server.md
       - 2. Http反向代理: progress/reverse_proxy_http.md
-      - 3. Https反向代理: other/reverse_proxy_https.md
-      - 4. 同一域名多个webapp的配置: other/reverse_proxy_02.md
-      - 5. 负载均衡: other/load_balance.md
-      - 6. 静态站点: other/static_site.md
-      - 7. 搭建文件服务器: other/file_server.md
+      - 3. Https反向代理: progress/reverse_proxy_https.md
+      - 4. 同一域名多个webapp的配置: progress/reverse_proxy_02.md
+      - 5. 负载均衡: progress/load_balance.md
+      - 6. 静态站点: progress/static_site.md
+      - 7. 搭建文件服务器: progress/file_server.md
   - 四. 进阶:
       - CGI、FastCGI: extend/cgi-fastcgi.md
   - 五. 其他:
