@@ -2,7 +2,7 @@ site_name: Nginx详解
 site_description: 个人学习记录与分享，纯属个人见解，不喜勿喷～
 site_author: Godfrey
 site_url: http://nginx.dazhairen.com/
-copyright: <a href="http://beian.miit.gov.cn/" target="blank">桂ICP备18007532号</a>
+copyright: <a href="http://beian.miit.gov.cn/" target="blank">桂ICP备18007532号-1</a>
 
 theme:
   name: material
